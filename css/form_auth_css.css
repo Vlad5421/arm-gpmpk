@@ -1,0 +1,17 @@
+.form_auth_pmpk{
+    align-items: center;
+    margin: 0 auto;
+  }
+.form_auth_pmpk span{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+  }
+.form_auth_pmpk form{
+    width: 600px;
+    margin: 30px auto 0;
+    border: #888 1px solid;
+    padding: 10px 20px;
+    border-radius: 5px;

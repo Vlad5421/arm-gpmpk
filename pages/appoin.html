@@ -1,0 +1,20 @@
+<div class="card_block">
+    <div class="list_block_data ">
+
+        <b>Номер заявки: <?= $card['id'] ?></b><br>
+        <hr>
+        ФИО ребенка: <?= nl2br(htmlspecialchars($card['fioreb'])) ?><br>
+        Дата рождения: <?= DateTime::createFromFormat('Y-m-d', $card['dateroj'])->format('d.m.Y') ?><br>
+        Цель ПМПК: <?= nl2br(htmlspecialchars($card['prich'])) ?><br>
+        Текущий статус: <span style="font-size: 15px; color:crimson; font-weight: bold;"><?= $status_str ?></span>
+
+    </div>
+    <div class="list_block_data">
+        <b>Данные родителя / законного представителя:</b><br>
+        <hr>
+        ФИО родителя: <?= nl2br(htmlspecialchars($parrent['fiorod'])) ?><br>
+        Телефон: <?= nl2br(htmlspecialchars($parrent['number'])) ?><br>
+        E-mail: <?= nl2br(htmlspecialchars($parrent['email'])) ?><br>
+
+    </div>
+</div>
