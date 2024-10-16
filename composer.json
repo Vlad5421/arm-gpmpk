@@ -1,7 +1,7 @@
 {
     "name": "vst-div/apm-gpmpk",
     "description": "Apm gpmpk package.",
-    "type": "wp-package",
+    "type": "project",
     "require": {
         "php": "^8.0"
     },
